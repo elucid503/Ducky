@@ -1,0 +1,46 @@
+{
+  "name": "ducky-2nd-generation",
+  "version": "2.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "production": "node --no-warnings index.js",
+    "host": "forever start --no-warnings -o ducky.log -e ducky.log index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/voice": "^0.14.0",
+    "@google-cloud/text-to-speech": "^4.1.0",
+    "@supercharge/strings": "^1.28.0",
+    "discord-ytdl-core": "^5.0.4",
+    "discord.js": "^14.3.0",
+    "libsodium-wrappers": "^0.7.10",
+    "luxon": "^3.0.3",
+    "music-metadata": "^8.0.1",
+    "nanoid": "^4.0.0",
+    "node-apple-music": "^1.2.2",
+    "node-fetch": "^3.2.10",
+    "node-wit": "^6.5.1",
+    "play-dl": "^1.9.6",
+    "prism-media": "^1.3.4",
+    "spotify-web-api-node": "^5.0.2",
+    "string-progressbar": "^1.0.4",
+    "youtube-dl-wrap": "^2.1.1",
+    "ytdl-core": "^4.11.2"
+  },
+  "description": "More powerful and lightning fast with all new features, Ducky brings you and your friends closer to the music you love more than ever before.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elucid503/Ducky-2.git"
+  },
+  "keywords": [
+    "Music"
+  ],
+  "author": "Elucid",
+  "bugs": {
+    "url": "https://github.com/elucid503/Ducky-2/issues"
+  },
+  "homepage": "http://sproutsoftware.xyz"
+}
